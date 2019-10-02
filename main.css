@@ -1,0 +1,126 @@
+body {
+ 
+	font-family: monospace;
+	background: linear-gradient(to bottom, green 0%, yellow 100%);
+	color: white;
+	/*background-image: url(https://d-pt.ppstatic.pl/k/r/1/b7/96/5c8f539267836_p.jpg?1552900050)*/
+	background-size: 100%;
+   
+}
+.img{
+	
+	margin-left: 50px;
+		
+}
+h1.tytuł
+{
+	border-bottom-style: double;
+	min-height: 80px;					/*obiża border względem napisu*/
+	font-size: 48px; 						/*rozmiar czcionki*/
+	font-weight: 500;						/*pogrubienie czcionki*/
+	text-align: center;
+	text-transform: uppercase;		/*wszystkie litery są przekształacane na wielkie*/
+	
+	
+}
+
+#leftnav
+{
+	float: left;
+	 border-right-style: double;
+	 margin-top: -35px;					/*ustawia nam prawy border*/
+	
+}
+
+.menu
+{
+	font-size: 22px;
+	line-height: 60px;
+	padding: 10px;						/*zwiększa rozmiar pola*/
+	width: 229px;
+	margin-bottom: 500px;
+	list-style-type: none;
+}
+a.tilelink
+{
+	color: #FFFFFF;						/*usuwanie hiperłącza i niebieskiego koloru*/
+	text-decoration: none;
+}
+
+#glowna
+{
+	
+}
+
+h2
+{
+	font-size: 36px;
+	color: silver;
+	text-align: center;
+}
+
+.posty
+{
+	width: 950px;
+	margin-left: 310px;
+	color: black;
+	font-size: 19px;
+	font-weight: bold;
+	text-align: justify;
+}
+
+.prawa
+{
+	
+	text-align: center;
+	color: black;
+	clear: both;					/*stopka zawsze na dnie strony*/
+	
+}
+
+.bialystok
+{
+	display: inline-block;
+	margin-left: 321px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.form
+{
+	
+	font-size: 20px;
+	padding-left: 300px;
+	padding-right: 40px;
+	margin: 20px 10px;
+	
+}
+
+.miasto
+{
+	
+	font-size: 20px;
+	
+}
+
+.koper
+{
+	
+	font-size: 26px;
+	margin-top: 50px;
+}
+
+.email
+{
+		font-size: 20px;
+	padding-left: 300px;
+	padding-right: 40px;
+	margin: 20px 10px;
+	text-align: center;
+	resize: none;
+}
+textarea
+{
+	resize: none;
+	
+}

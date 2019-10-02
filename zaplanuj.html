@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+
+		<meta charset="utf-8">
+		<title> Podlaskie - Zielona płuca Polski!</title>
+		<meta name="description" content="Strona poświęcona najpiękniejszemu regionowi wschodniej Polski. Najbardziej 'zielonego' miejsca w kraju!">
+		<meta name="keywords" content="podlaskie,przyroda,Białystok">
+		<meta name="author" content="Jan Kowalski">
+		<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+		
+		<link rel="stylesheet" href="main.css">
+		
+		
+</head>
+
+
+<body>
+		
+		<header>
+				<div class="img">
+				<a href="index.html">
+				<img src="img/podl.jpg" width="150" align="left"></a>
+				</div>
+				
+				<h1 class="tytuł">Podlaskie - tu warto zamieszkać!<h1>
+
+				
+		
+				<nav id="leftnav">
+		
+					<ul class="menu">																		<!--tworzymy klasę menu-->
+						<li><a href="index.html" class="tilelink">Stona główna</a></li>							<!--w miejsce # wstawiamy link do podstrony-->		
+						<li><a href="miasta.html" class="tilelink">Największe miasta</a></li>									
+						<li><a href="zaplanuj.html" class="tilelink">Zaplanuj wyjazd</a></li>								
+						<li><a href="kontakt.html" class="tilelink">Kontakt</a></li>	
+					</ul>
+				</nav>
+		</header>
+		
+		<main>
+		
+				<article>
+				
+						<section id="glowna">
+						
+						<header>
+								<h2>Zaplanuj wyjazd</h2>
+						</header>
+						
+						<form action="order.php"="" method="post" enctype="multipart/form-data">
+						
+						
+						<div class="form">
+						
+							<label> Wybierz miasto </label><br /></br />
+									
+									<select id="miasto" name="miasto">
+									
+										<option value="b">Białystok</option>
+										<option value="s">Suwałki</option>
+										<option value="l">Łomża</option>
+						
+						
+									</select>
+									
+						
+						</div>
+						
+						<div class="form">
+			
+						<label>Termin przyjazdu<br /><br /><input type="date" name="dzień" ></label><br /><br />
+						<label>Termin wyjazdu</br /><br /><input type="date" name="dzień"></label>
+				
+			
+						</div>
+						
+						
+						<div class="form">
+						
+							<fieldset>
+							
+								<legend>Wybierz ile osobowe pokoje chcesz zarezerwowaćerwować</legend>
+							
+									<label><input type="radio" value="1" >1-osobowe</label>
+									<label><input type="radio" value="2" >2-osobowe</label>
+									<label><input type="radio" value="3" >3-osobowe</label>
+									<label><input type="radio" value="4" >4-osobowe</label>
+							
+							
+							
+							</fieldset>
+						
+						<div class="miasto">
+						
+							<br /><label> Czy chcesz wziąć dodatkowe śniadania? </label><br /></br />
+									
+									<select>
+									
+										<option value="t">TAK</option>
+										<option value="n">NIE</option>
+									
+									</select>
+									
+						
+						</div>
+						
+						<div class="miasto">
+					
+								<br /><label><input type="text" name="imie"><br /> Imię</label>
+								<br /><label><input type="text" name="nazwisko"><br />Nazwisko</label>
+					
+			
+						</div>
+			
+						<div class="koper">
+							<input type="submit" value="Wyślij">
+							<input type="reset" value="Wyczyść">
+						</div>
+						
+						</form>
+						
+						</br>
+						<footer>
+								<div class="prawa">
+									Wszelkie prawa zastrzeżone <br />
+									2019 &copy; Jan Kowalski
+								</div>
+		
+		
+						</footer>
+					</section>
+				</article>
+			</main>
+	</body>
